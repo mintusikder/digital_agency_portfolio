@@ -1,0 +1,65 @@
+/* div progress{
+    display: block;
+}
+.test{
+    cursor: wait;
+} */
+
+/* .parent{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    height: 60vh;
+    width: 100%;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.child1{
+    padding: 50px;
+    background: green;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    order: 3;
+    flex-grow: 2;
+}
+.child2{
+    padding: 50px;
+    background: red;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    order: 2;
+    flex-grow: 2;
+}
+.child3{
+    padding: 50px;
+    background: blue;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    order: 1;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    background: #585858;
+}
+.item{
+    display: inline-block;
+    list-style: none;
+    font-size: 22px;
+    padding: 5px;
+   
+    margin-right: 10px;
+}
+.item a{
+    text-decoration: none;
+    color: black;
+}
