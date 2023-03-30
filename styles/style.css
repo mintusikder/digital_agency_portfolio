@@ -44,7 +44,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
 span {
@@ -120,7 +120,7 @@ span {
     height: 100vh;
     width: 100%;
     background: url(../asset/image/footer-bg.png) no-repeat,
-    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+        linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
     background-size: cover;
     color: white;
     padding: 10px;
@@ -144,9 +144,11 @@ span {
     width: 50%;
     padding: 10px;
 }
-.service-left{
+
+.service-left {
     width: 50%;
 }
+
 .athor-details {
     display: flex;
     align-items: center;
@@ -204,8 +206,9 @@ span {
     gap: 20px;
     margin-top: 20px;
 }
+
 /* appointment-section */
-.appointment-section{
+.appointment-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -215,18 +218,36 @@ span {
     padding: 10px;
     margin: auto;
     border-radius: 25px;
-    margin-top: -70px;
+    margin-top: -40px;
 }
-.app-description{
+
+.app-description {
     width: 50%;
 }
-.phone-call{
+
+.phone-call {
     display: flex;
 }
-.call-icon{
+
+.call-icon {
     width: 100px;
 }
-.get{
+
+.get {
     border-right: 2px solid gray;
     margin-right: 10px;
+}
+/* Blog & News Section Styles */
+.blog-header{
+    text-align: center;
+    margin-top: 50px;
+}
+.blog-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.blog-description{
+    width: 40%;
+    margin: auto;
 }
